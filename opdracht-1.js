@@ -21,6 +21,7 @@ const ambiLightTvs = inventory.filter((ambiLighttv) => {
 console.log(ambiLightTvs)
 
 //Opdracht 1d
-const sort = inventory.sort((a, b) => a.price - b.price)
+const inventoryClone = [].concat(inventory)
+const sort = inventoryClone.sort((a, b) => a.price - b.price)
 
 console.log(sort)
