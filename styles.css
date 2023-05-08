@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding 0;
+}
+
+h1  {
+    margin: 3rem 0;
+}
+
+P {
+    font-size: 1.5rem;
+}
+
+#total-sold {
+    color: green;
+    }
+
+#original-stock {
+    color: blue;
+}
+
+#stock-left {
+    color: red;
+}
